@@ -1,0 +1,106 @@
+body{
+    font-family: 'Poppins', serif;
+    font-weight: 300;
+    
+}
+.logo{
+    height: 41px;
+    justify-items: center;
+    float: left;
+}
+.bg1{
+    background-image:  linear-gradient(-52deg, rgba(73,70,224,0.8) 0%, rgba(73,70,224,0.8) 1000%),   url('back-image1.jpg');
+    height:80vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+   } 
+   .back-Image-Text{
+    padding-top: 25vh;
+    }
+    .icon{
+        text-align: center;
+        color: rgba(0, 0, 255, 0.603);
+        font-size: 350%;
+        display: block;
+        }
+
+        h2::before {
+           display: block;
+            height:2px;
+            background-color: #e67e22;
+            width: 100px;
+            content: " ";
+            margin: 30px auto;
+            
+
+        }
+          .A h2::before{
+              display: none;
+              
+          }
+          .formbg .c h2::before{
+              display: none;
+          }
+          .B h2::before{
+            margin: 30px 0;
+        }
+        .bg2{
+            background-image:  linear-gradient(-52deg, rgba(73,70,224,0.8) 0%, rgba(73,70,224,0.8) 100%),   url('images.jpg'); 
+           background-size: cover;
+           color: white;
+            text-align: center;
+           
+         }
+         .formbg{
+         background-image:  linear-gradient(-52deg, rgba(73,70,224,0.8) 0%, rgba(73,70,224,0.8) 100%);
+         color: white;
+         text-align: center;
+         padding: 50px auto;
+        
+          } 
+          .placeholder{
+            width: 300px;
+            height: 30px;
+            padding-left: 10px;
+          }
+          .C h2::after{
+              background-color: white;
+              display: block;
+              height:2px;
+              
+              width: 100px;
+              content: " ";
+              margin: 30px auto;
+             
+          }
+          .img:hover,.images2:hover,.card:hover{
+            opacity: 1;
+           -webkit-transform: scale(1.03);
+          -ms-transform: scale(1.03);
+           transform: scale(1.03);
+          }
+         .img{
+             height: 300px;
+             width: 250px;
+             padding-bottom: 10px;
+         }
+         .img1{
+            border-radius: 50px;
+            width: 100px;
+            height: 100px;
+            padding-bottom: 10px;
+          }
+          
+          
+          h6 ,.fa{
+              color: rgba(0, 0, 0, 0.541);
+          }
+          h1{
+              font-family: 'Poppins' , sans-serif;
+          }
+          h2{
+              font-family:  sans-serif;
+          }
+          
